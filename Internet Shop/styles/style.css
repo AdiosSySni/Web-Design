@@ -68,8 +68,8 @@ button {
 
 .intro {
     width:100%;
-    height:890px;
-    background: url(../img/Main-Picture.png) center no-repeat;
+    height:100vh;
+    background: url(../img/Main-Picture.png) center no-repeat fixed;
     background-size:cover;
 }
 
@@ -162,4 +162,57 @@ button {
 
 .so-right-side-inner button {
     color:black;
+}
+
+.offers-compilation {
+    margin-top:40px;
+    width:100%;
+    height:1064px;
+}
+
+.oc-content {
+    margin: 0 auto;
+    height:100%;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px 0px 1px 0px;
+    /* background:brown; */
+}
+
+.oc-content-header {
+    margin-top:15px;
+    width:100%;
+    text-align: center;
+}
+
+.best-buildings {
+    margin-top:72px;
+    width:100%;
+    height:878px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.best-buildings-left {
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.best-buildings-center {
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.best-buildings-right {
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
