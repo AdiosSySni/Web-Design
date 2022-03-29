@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    width:100%;
+    height:100%;
+}
+
+.wrapper {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    background:#E5E5E5;
+}
+
+.content {
+    max-width:1570px;
+}
+
+button {
+    width:154px;
+    height:37px;
+    background:none;
+    border: 1px solid;
+    color:white;
+    cursor: pointer;
+}
+
+
+/* Header */
+.header {
+    margin-top:33px;
+    z-index:2;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url('../img/header.png') no-repeat center ;
+    background-size: cover;
+}
+
+.header-content {
+    height:150px;
+    display: flex;
+}
+
+.header-logo {
+    margin-left:104px;
+}
+
+/* .header-nav {
+    width:576px;
+    height:150px;
+} */
+
+.header-nav ul {
+    margin-left:351px;
+    width:576px;
+    height:150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.header-nav ul li a{ 
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+
+/* Footer */
+.footer {
+    margin-top:80px;
+    width:100%;
+    height:418px;
+    background: url('../img/Footer.png') center no-repeat;
+    background-size: cover;
+}
+
+.footer-content {
+    height:100%;
+    margin: 0 auto;
+    color:white;
+}
+
+.footer-upper-content {
+    padding-top:38px;
+    width:100%;
+    height:331px;
+    display: flex;
+}
+
+.footer-content-left {
+    margin-left:17px;
+    width:408px;
+    height:307px;
+}
+
+.footer-content-center {
+    margin-left:20px;
+    width:678px;
+    height:305px;
+    border-color: white;
+    border-style: solid;
+    border-width: 0px 1px 0px 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.personal-data-policy {
+    margin-top:153px;
+    text-decoration: underline;
+}
+
+.social-networks {
+    margin-top:30px;
+    display: flex;
+    width:215px;
+    height:31px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content-right {
+    margin-top:126px;
+    margin-left:197px;
+    width:166px;
+    height:123px;
+    
+}
+
+.contact {
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.connect-us {
+    width:100%;
+    height:53px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.connect-us a {
+    text-decoration: none;
+    color:white;
+}
+
+
+.copyright {
+    width:381px;
+    height:22px;
+    margin-top:8px;
+    margin: 0 auto;
+}
+
+.copyright a {
+    text-decoration: none;
+    color:white;
+}

@@ -1,0 +1,213 @@
+/* Header */
+
+.header {
+    background:none;
+}
+
+/* Intro */
+.intro {
+    width:100%;
+    height:100vh;
+    background: url(../img/Main-Picture.png) center no-repeat fixed;
+    background-size:cover;
+}
+
+.intro-content {
+    height:600px;
+    margin:0 auto;
+}
+
+.intro-info {
+    margin-top:67px;
+    margin-left:60px;
+    width:475px;
+    height:224px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+
+.intro-info h1{
+    width:450px;
+    height:50px;
+}
+
+.intro-info p {
+    width:460px;
+    height:78px;
+}
+
+/*Special offer */
+.special-offer {
+    width:100%;
+    height:719px;
+    display: flex;
+}
+
+.so-content {
+    margin: 0 auto;
+    height:100%;
+    display: flex;
+}
+
+.so-left-side {
+    /* position: relative; */
+    width:51%;
+    height:100%;
+    background: url(../img/SpecialOfferIMG.png) center no-repeat;
+    background-size:cover;
+}
+
+.so-right-side {
+    width:49%;
+    height:100%;
+}
+
+.so-right-side-content {
+    width:800px;
+    height:100%;
+    margin: 0 auto;
+    background: url(../img/SpecialOffer.png) center no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.so-right-side-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width:552px;
+    height:400px;
+}
+
+.so-right-side-inner h1 {
+    width:540px;
+    height:82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.so-right-side-inner p {
+    width:533px;
+    height:103px;
+}
+
+.so-right-side-inner button {
+    color:black;
+}
+
+/* Offers compilation */
+.offers-compilation {
+    margin-top:40px;
+    max-width:100%;
+    height:1064px;
+}
+
+.oc-content {
+    margin: 0 auto;
+    height:100%;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px 0px 1px 0px;
+}
+
+.oc-content-header {
+    margin-top:15px;
+    width:100%;
+    text-align: center;
+}
+
+.best-buildings {
+    margin-top:72px;
+    width:100%;
+    height:878px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.best-buildings-block {
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Specialists */
+.specialists {
+    margin-top:85px;
+    width:100%;
+    height:406px;
+}
+
+.specialists-content {
+    margin: 0 auto;
+    height:100%;
+    border-color: black;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+}
+
+.s-content-header {
+    width:100%;
+    text-align: center;
+}
+
+.companies {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-top:46px;
+    height:232px;
+    width:100%;
+}
+
+/* About us */
+.about-us {
+    width:100%;
+    height:521px;
+    margin-top:118px;
+}
+
+.au-content {
+    margin: 0 auto;
+    height:100%;
+}
+
+.au-content-header {
+    width:100%;
+    height:48px;
+    text-align: center;
+}
+
+.au-info {
+    width:872px;
+    margin: 0 auto  ;
+    height:458px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.au-info-text {
+    width:100%;
+    height:202px;
+}
+
+.au-info-button {
+    margin-top:63px;
+}
+
+.au-info-button button {
+    color:black;
+}
+
+/*Футер смотреть в конфиге */
