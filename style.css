@@ -1,0 +1,364 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+
+.wrapper {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    background:#E5E5E5;
+}
+
+.content {
+    width:1570px;
+}
+
+button {
+    width:154px;
+    height:37px;
+    background:none;
+    border: 1px solid;
+    color:white;
+    cursor: pointer;
+}
+
+.header {
+    margin-top:33px;
+    z-index:2;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content {
+    height:150px;
+    display: flex;
+}
+
+.header-logo {
+    margin-left:104px;
+}
+
+
+.header-nav ul {
+    margin-left:351px;
+    width:576px;
+    height:150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.header-nav ul li a{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+.intro {
+    width:100%;
+    height:25vh;
+    background: url(image/Main-Picture1.png) center no-repeat fixed;
+    background-size:cover;
+}
+
+.wrapper-personal{
+    width: 100%;
+    height: 100Vh;
+    display: flex;
+    justify-content: center;
+    font-family: Ledger;
+}
+
+.Personal-Area{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 100vh;
+
+}
+
+.personal-info{
+    display: flex;
+    width: 100%;
+    height: 80%;
+}
+
+.info-left{
+    width: 20%;
+    height: 100%;
+    background-color: black;
+}
+
+.upper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 25%;
+}
+
+.upper-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    border-bottom: 1px solid white;
+}
+
+.upper-info>p{
+    text-align: center;
+    color: white;
+}
+
+.info-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 40%;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 35%;
+}
+
+.middle-main{
+    width: 80%;
+    height: 100%;
+    border-bottom: 1px solid white;
+}
+
+.middle-info{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.middle-info>a{
+    height: 20%;
+    display: flex;
+    justify-content: left;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.a-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 100%;
+}
+
+a>p{
+    margin-left: 10px;
+}
+
+.Line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40%;
+}
+
+.lower-main{
+    width: 80%;
+    height: 70%;
+}
+
+.lower-info{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.lower-info>a{
+    display: flex;
+    justify-content: left;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.info-right{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+}
+
+.right-main{
+
+    width: 96%;
+    height: 100%;
+}
+
+.Title{
+    width: 100%;
+    height: 10%;
+    border-bottom: 1px solid black;
+}
+
+.about-person-main{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+
+.about-person-left{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.person-left-main{
+    width: 80%;
+    height: 100%;
+}
+
+.Tage-Name{
+    width: 70%;
+    height: 10%;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Tag-Info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+    border-right: 1px solid black;
+}
+
+.about-person-right{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.person-right-main{
+    width: 90%;
+    height: 100%;
+}
+
+.Tage-Name-two{
+    width: 30%;
+    height: 10%;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Surname{
+    border-radius: 5px;
+    width: 200px;
+}
+
+.Name{
+    border-radius: 5px;
+    width: 100px;
+}
+
+.Patronymic{
+    border-radius: 5px;
+    width: 200px;
+}
+
+.info-upper{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.info-middle{
+    display: flex;
+    width: 100%;
+    height: 30%;
+}
+
+.info-lower{
+    width: 100%;
+    height: 40%;
+}
+
+.Passport{
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.Issued{
+    width: 300px;
+    height: 70px;
+}
+
+textarea{
+    resize: none;
+}
+
+.Data{
+    width: 150px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.Place{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.Passport-Info>p{
+    margin:  0;
+}
+
+.Last-seen{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 37.5%;
+}
+
+.Title2{
+    text-align: center;
+    width: 100%;
+    height: 5%;
+    border-bottom: 1px solid black;
+    font-size: 1.2rem   ;
+}
+
