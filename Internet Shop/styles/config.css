@@ -20,14 +20,6 @@ html,body {
     width:1570px;
 }
 
-button {
-    width:154px;
-    height:37px;
-    background:none;
-    border: 1px solid;
-    color:white;
-    cursor: pointer;
-}
 
 .btn{
     position: relative;
@@ -40,6 +32,10 @@ button {
     background:none;
     width:100%;
     height:100%;
+    padding:8px 0px 0px 0px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .btn:before{
