@@ -1,5 +1,4 @@
 /* Header */
-
 .header {
     background:none;
 }
@@ -38,6 +37,22 @@
 .intro-info p {
     width:460px;
     height:78px;
+}
+
+.intro-info .btn {
+    border: 1px solid white;
+    color:white;
+}
+
+.intro-info .left-top {
+    border-left:1px solid white;
+    border-top:1px solid white;
+}
+
+.intro-info .right-bottom {
+    top:33px;
+    border-right:1px solid white;
+    border-bottom:1px solid white;
 }
 
 /*Special offer */
@@ -85,7 +100,6 @@
     text-align: center;
     width:552px;
     height:400px;
-    z-index:1;
 }
 
 .so-right-side-inner h1 {
@@ -99,6 +113,10 @@
 .so-right-side-inner p {
     width:533px;
     height:103px;
+}
+
+.so-right-side .button-wrapper {
+    z-index:1;
 }
 
 
@@ -200,12 +218,13 @@
     height:202px;
 }
 
-.au-info-button {
+.au-info .button-wrapper {
     margin-top:63px;
+    z-index:1;
 }
 
-.au-info-button button {
-    color:black;
+.au-info .button-wrapper .right-bottom {
+    top:30px;
 }
 
 /*Футер смотреть в конфиге */
