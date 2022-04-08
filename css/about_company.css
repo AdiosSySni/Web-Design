@@ -1,0 +1,272 @@
+.about-company {
+    margin-top:38px;
+    height:1040px;
+}
+
+.about-company .h1-wrapper {
+    margin-left:40px;
+    width:243px;
+}
+
+.about-company .left-top-h1{
+    right:225px;
+    bottom:20px;
+}
+
+.about-company .right-bottom-h1 {
+    left:210px;
+    top:20px;
+}
+
+.ac-content-top {
+    margin-top:25px;
+    width:1479px;
+    height:424px;
+    display: flex;
+    align-items: center;
+    /* background:red; */
+}
+
+.ac-content-top-left {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width:852px;
+    height:100%;
+}
+
+.ac-content-top-left img {
+    height:392px;
+    width:758px;
+}
+
+.ac-content-top-right {
+    width:606px;
+    height:242px;
+    margin-left:63px;
+    display: flex;
+}
+
+.ac-content-top-right p {
+    width:565px;
+    height:242px;
+    margin:12px 0px 0px 13px;
+}
+
+.ac-content-bottom {
+    margin:36px;
+    width:1518px;
+    height:504px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ac-content-bottom-left {
+    width:653px;
+    height:361px;
+}
+
+.ac-content-bottom-text {
+    position: relative;
+    margin-bottom:51px;
+    display: flex;
+}
+
+.ac-content-bottom-text p {
+    width:605px;
+    height:146px;
+    margin:13px 0px 0px 16px;
+}
+
+
+.ac-content-bottom-right {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width:810px;
+    height:504px;
+}
+
+.ac-content-bottom-right img{
+    width:724px;
+    height:459px;
+}
+
+.reviews {
+    margin-top:66px;
+    height:334px;
+}
+
+.reviews .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reviews .h1-wrapper {
+    margin:0;
+    width:243px;
+    text-align: center;
+}
+
+.reviews .left-top-h1 {
+    right:200px;
+    bottom:20px;
+}
+
+
+.reviews .right-bottom-h1 {
+    left:200px;
+    top:20px;
+}
+
+.review {
+    margin: 0 auto;
+    margin-top:34px;
+    width:925px;
+    height:250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.review-content {
+    margin: 0 auto;
+    background: rgba(196, 196, 196, 0.25);
+    border-radius: 10px;
+    width:807px;
+    height:100%;
+    padding:16px 27px 17px 33px;
+}
+
+.review-content-wrapper {
+    width:747px;
+    height:216px;
+    display: flex;
+}
+
+.review-img {
+    width:100px;
+    height:100px;
+    border-radius: 50px;
+}
+
+.review-text {
+    margin:20px 0px 0px 25px;
+    width: 622px;
+    height:196px;
+    display: flex;
+    flex-direction: column;
+}
+
+#review-text-name {
+    height:20px;
+}
+
+#review-date {
+    margin-top:10px
+}
+
+#review-text {
+    max-width:562px;
+    margin-top:22px;
+}
+
+.review-likes {
+    margin-top:10px;
+    align-self: flex-end;
+    justify-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width:100%;
+    height:20px;
+}
+
+.review-likes p {
+    margin-right:6px;
+}
+
+.slider {
+    border-radius: 10px;
+    margin-top:100px;
+    position: absolute;
+    width: 807px;
+    height: 250px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+  
+.slider-wrapper {
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    width: 807px;
+    height: 250px;
+    z-index: 1;
+  
+}
+  
+.slides {
+    display: flex;
+    position: relative;
+    top: 0;
+    width: 10000px;
+    
+}
+  
+.slides.shifting {
+    transition: left 0.2s ease-out;
+}
+  
+.slide {
+    width: 807px;
+    height: 250px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 1s;
+    position: relative;
+}
+  
+.control {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 50px;
+    margin-top: -20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+ }
+  
+.prev,
+.next {
+    background-size: 22px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+  
+.prev {
+    background-image: url(../img/arrow-left.png);
+    left: -20px;
+}
+  
+.next {
+    background-image: url(../img/arrow-right.png);
+    right: -20px;
+}
+  
+.prev:active,
+.next:active {
+    transform: scale(0.8);
+}

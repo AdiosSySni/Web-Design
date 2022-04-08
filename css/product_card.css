@@ -1,0 +1,279 @@
+.img-card {
+    margin-top:38px;
+    height:978px;
+}
+
+.img-card h1 {
+    width:374px;
+    text-align: center;
+}
+
+.img-card .h1-wrapper {
+    margin-left:40px;
+}
+
+.img-card .left-top-h1 {
+    left:-1px;
+    bottom:18px;
+}
+
+.img-card .right-bottom-h1 {
+    left:350px;
+    top:18px;
+}
+
+.card {
+    margin-top:26px;
+    padding: 67px 0 0 0;
+    height:899px;
+    border-top:1px solid black;
+    display: flex;
+}
+
+.card img {
+
+    width:100%;
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.card-info {
+    width:100%;
+    height:952px;
+    margin-top:66px;
+}
+
+.main-description {
+    height:459px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+}
+
+.main-description .h1-wrapper{
+    margin: 34px 0 0 40px;
+}
+
+.main-description .left-top-h1 {
+    left:-10px;
+    bottom:22px;
+}
+
+.main-description .right-bottom-h1 {
+    left:405px;
+    top:22px;
+}
+
+.md-content {
+    margin: 0 auto;
+    margin-top:32px;
+    height:340px;
+    display: flex;
+    background: rgba(196, 196, 196, 0.2);
+    border-radius: 4px;
+    align-items: center;
+}
+
+.md-text {
+    width:570px;
+    height:100%;
+     padding:41px 0px 0px 45px;
+}
+
+.md-text #location {
+    margin-top:34px;
+}
+
+.text-info {
+    margin-top:19px;
+    width:341px;
+    height:75px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.text-info div {
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.call {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:46px;
+    width:450px;
+    height:47px;
+}
+
+.map {
+    height:280px;
+    width:984px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border-style: solid;
+    border-width: 0px 0px 0px 1px;
+}
+
+.map iframe {
+    width:855px;
+    height:281px;
+}
+
+.detailed-description {
+    height:459px;
+    margin: 0 auto;
+    margin-top:34px;
+    border-color: black;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+}
+
+.dd-header {
+    height:50px;
+    display: flex;
+}
+
+.dd-header-left {
+    margin: 0 0 0 40px;
+    text-align: center;
+}
+
+.dd-header-left .left-top-h1 {
+    left:-10px;
+    bottom:22px;
+}
+
+.dd-header-left .right-bottom-h1 {
+    left:365px;
+    top:22px;
+}
+
+.dd-header-right {
+    margin-left: 400px;
+    width:280px;
+    height:100%;
+    text-align: center;
+}
+
+
+.dd-header-right .left-top-h1 {
+    left:50px;
+    bottom:21px;
+}
+
+.dd-header-right .right-bottom-h1 {
+    left:206px;
+    top:21px;
+}
+
+.dd-content {
+    margin-top:32px;
+    height:340px;
+    display: flex;
+    background: rgba(196, 196, 196, 0.2);
+    border-radius: 4px;
+}
+
+.dd-text-left {
+    margin: 42px 0px 0px 19px;
+    padding-top:12px;
+    width:704px;
+    height:120px;
+}
+
+.dd-text-left p{
+    width:100%;
+    height:100%;
+}
+
+.dd-text-right {
+    margin:42px 0px 0px 40px;
+    padding: 12px 0px 0px 98px;
+    width:635px;
+    height:280px;
+    border-color: black;
+    border-style: solid;
+    border-width: 0px 0px 0px 1px;
+}
+
+
+/* Слайдер карточки товара */
+.slider {
+    position:absolute;
+    width: 1570px;
+    height: 832px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+  
+.slider-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 1570px;
+    height: 832px;
+    z-index: 1;
+}
+  
+.slides {
+    display: flex;
+    position: relative;
+    left: -1570px;
+    width: 1000000px;
+}
+  
+.slides.shifting {
+    transition: left 0.2s ease-out;
+}
+  
+.slide {
+    width: 1570px;
+    height: 832px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 1s;
+    position: relative;
+    border-radius: 2px;
+    background-size: cover;
+}
+
+.control {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: -20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+  
+.prev,
+.next {
+    background-size: 22px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+  
+.prev {
+    background-image: url(../img/arrow-left-white.png);
+    left:0;
+}
+  
+.next {
+    background-image: url(../img/arrow-right-white.png);
+    right: 0;
+}
+  
+.prev:active,
+.next:active {
+    transform: scale(0.8);
+}

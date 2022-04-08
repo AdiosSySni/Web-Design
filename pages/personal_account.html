@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/config.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../css/personal_account.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header-content">
+                    <a href="../pages/main.html">
+                        <img src="../img/WhiteLogo.png" alt="#">
+                    </a>
+                    <nav>
+                        <ul class="topmenu">
+                        <li><a href="../pages/main.html">Главная</a></li>
+                        <li><a href="../pages/catalog.html">Обьекты в продаже</a>
+                            <ul class="submenu">
+                                <li><a href="">Рекрационная недвижимость</a></li>
+                                <li><a href="">Городская недвижимость</a></li>
+                                <li><a href="">Городская недвижимость</a></li>
+                                <li><a href="">Городская недвижимость</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="">Новости</a></li>
+                        <li><a href="../pages/about_company.html">О компании</a></li>
+                        <li><a href="">Мои заказы</a></li>
+                        <!-- <li><a href="">Личный кабинет</a></li> -->
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="entry">
+                    <a href="../pages/login.html">
+                        <img src="../img/entry.png" alt="#"> Вход
+                    </a>
+                    <a href="../pages/register.html">
+                        Регистрация
+                    </a>
+                </div>
+            </div>
+        </header>
+
+
+        <main class="main">
+            <div class="container">
+                <div class="personal-account">
+
+                    <div class="pa-nav-manu">
+                        <div class="pa-nav-menu-content">
+                            <div class="profile-name">
+                                <div class="avatar">
+                                    <img src="../img/about-company/collapse.png" alt="#">
+                                </div>
+                                <p>Абрамович Роман Аркадьевич</p>
+                            </div>
+
+                            <span id="line"></span>
+
+                            <div class="profile-selection">
+                                <div>
+                                    <div class="selection-img">
+                                        <a href="#"> <img src="../img/personal-account/completed_transactions.png" alt="#"></a>
+                                    </div>                                    
+                                    <p>- Совершенные сделки</p>
+                                </div>
+
+                                <div>
+                                    <div class="selection-img">
+                                        <a href="#"><img src="../img/personal-account/open_transactions.png" alt="#"></a>
+                                    </div>
+                                    <p>- Открытые сделки</p>
+                                </div>
+                                <div>
+                                    <div class="selection-img">
+                                        <a href="#"><img src="../img/personal-account//my_orders.png" alt="#"></a>
+                                    </div>
+                                    <p>- Мои заказы</p>
+                                </div>
+                                <div>
+                                    <div class="selection-img">
+                                        <a href="#"><img src="../img/personal-account/favourites.png" alt="#"></a>
+                                    </div>
+                                    <p>- Избранное</p>
+                                </div>
+                            </div>
+                            <span id="line"></span>
+                            <div class="profile-settings">
+                                <div class="selection-img">
+                                    <a href="#"><img src="../img/personal-account/settings.png" alt="#"></a>
+                                </div>
+                                <p>- Настройки профиля</p>
+                            </div>
+                        </div>
+                       
+                    </div>
+
+                    <div class="pa-info">
+                        <div class="h1-wrapper">
+                            <span class="left-top-h1"></span>
+                            <h1>Личный кабинет</h1>
+                            <span class="right-bottom-h1"></span>
+                        </div>
+
+                        <div class="pa-info-content">
+                            <div class="personal-information">
+                                <div class="user-data">
+                                    <div class="user-data-header">
+                                         <p>Информация о пользователе</p>
+                                    </div>
+                                   
+                                    <div class="user-data-info">
+                                        <p>Фамилия</p>
+                                        <input id="surname_input" type="text">
+                                        <p id="surname"></p>
+                                        <p>Имя</p>
+                                        <input id="name_input" type="text">
+                                        <p id="name"></p>
+                                        <p>Отчество</p>
+                                        <input id="middle_name_input" type="text">
+                                        <p id="middle_name"></p>
+                                    </div>
+
+                                    <div class="button-wrapper">
+                                        <span class="left-top"></span>
+                                            <div class="button-content">
+                                                <a href="#" class="btn">Заполнить</a>
+                                            </div>
+                                        <span class="right-bottom"></span>
+                                    </div>
+                                </div>
+                                
+
+                                <div class="passport-data">
+                                    <div class="passport-data-header">
+                                         <p>Пасспортные данные</p>
+                                    </div>
+                                    <div class="passport-data-info">
+                                        <div class="passport-data-info-row1">
+                                            <div class="series">
+                                                <p>Серия</p>
+                                                <input id="series_input" type="text">
+                                                <p id="series"></p>
+                                            </div>
+                                            <div class="issue">
+                                                <p>Номер</p>
+                                                <input id="issue_input" type="text">
+                                                <p id="issue"></p>
+                                            </div>
+                                            <div class="gender">
+                                                <p>Пол</p>
+                                                <input id="gender_input" type="text">
+                                                <p id="gender"></p>
+                                            </div>
+                                        </div>
+
+                                        <div class="passport-data-info-row2">
+                                            <div class="issued-by-whom">
+                                                <p>Выдан кем</p>
+                                                <textarea id="textarea" class="issued_by_whom_textarea"></textarea>
+                                                <p id="issued_by_whom"></p>
+                                            </div>
+                                            <div class="issue-date">
+                                                <p>Дата выдачи</p>
+                                                <input id="issue_date_input" type="text">
+                                                <p id="issue_date" ></p>
+                                            </div>
+                                        </div>
+
+                                        <div class="passport-data-info-row3">
+                                            <div class="place-of-born">
+                                                <p>Место рождения</p>
+                                                <input id="place_of_born_input" type="text">
+                                                <p id="place_of_born"></p>
+                                            </div>
+
+                                            <div class="data-of-born">
+                                                <p>Дата рождения</p>
+                                                <input id="data_of_born_input" type="text">
+                                                <p id="data_of_born"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="viewed-estate">
+                                <h1>Просмотренная недвижимость</h1>  
+                                <div class="viewed-estate-slider">
+                                    <div id="slider1" class="owl-carousel owl-theme">
+                                        <div class="item">
+                                            <img src="../img/catalog/img1.png">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../img/catalog/img3.png">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../img/catalog/img4.png">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../img/catalog/img5.png">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../img/catalog/img6.png">
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+        <div class="footer">
+            <div class="container">
+                <div class="footer-upper-content">
+                    <div class="footer-content-left">
+                        <div class="footer-content-left-logo">
+                            <a href="#"> 
+                                <img src="../img/WhiteLogo.png" alt="#">
+                            </a>
+                           
+                        </div>
+    
+                        <div class="footer-content-left-text">
+                            <p>Все права защищены
+                                Копирование и воспроизведение материалов этого сайта возможно только с письменного согласия администрации сайта.
+                            </p>
+
+                            <p>
+                                Представленная на сайте информация, в т.ч. стоимость объектов, носит информационный характер и не является публичной офертой.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-content-center">
+                            <div class="personal-data-policy">
+                                <p>Политика обработки персональных данных</p>
+                            </div>
+
+                            <div class="social-networks">
+                                <a href="#">
+                                      <img src="../img/footer/youtube.png" alt="#">
+                                </a>
+
+                                <a href="#">
+                                    <img src="../img/footer/whatsapp.png" alt="#">
+                                </a>
+
+                                <a href="#">
+                                    <img src="../img/footer/discord.png" alt="#">
+                                </a>
+
+                                <a href="#">
+                                    <img src="../img/footer/vk.png" alt="#">
+                                </a>
+                            </div>
+                        
+                            
+                    </div>
+                    <div class="footer-content-right">
+                        <div class="contact">
+                                <a href="tel:8 (999) 255 49-87">8 (999) 255 49-87</a>
+                                <a href="tel:8 (999) 255 49-87">Бесплатно по России</a>
+                            <div class="button-wrapper">
+                                <span class="left-top"></span>
+                                    <div class="button-content">
+                                        <a href="tel:8 (999) 255 49-87" class="btn">Связаться</a>
+                                    </div>
+                                <span class="right-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="copyright">
+                    <a href="#">©Knight of Truth 2022-2023 Все права защищены</a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="../js/personal_account.js"></script>
+
+</body>
+</html>

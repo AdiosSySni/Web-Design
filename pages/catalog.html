@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/config.css">
+    <link rel="stylesheet" href="../css/catalog.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header-content">
+                    <a href="../pages/main.html">
+                        <img src="../img/WhiteLogo.png" alt="#">
+                    </a>
+                    <nav>
+                        <ul class="topmenu">
+                        <li><a href="../pages/main.html">Главная</a></li>
+                        <li><a href="../pages/catalog.html">Обьекты в продаже</a>
+                            <ul class="submenu">
+                                <li><a href="">Рекрационная недвижимость</a></li>
+                                <li><a href="">Городская недвижимость</a></li>
+                                <li><a href="">Городская недвижимость</a></li>
+                                <li><a href="">Городская недвижимость</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="">Новости</a></li>
+                        <li><a href="../pages/about_company.html">О компании</a></li>
+                        <li><a href="">Мои заказы</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="entry">
+                    <a href="../pages/login.html">
+                        <img src="../img/entry.png" alt="#"> Вход
+                    </a>
+                    <a href="../pages/register.html">
+                        Регистрация
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="container">
+                <div class="h1-wrapper">
+                    <span class="left-top-h1"></span>
+                    <h1>Элитная недвижимость</h1>
+                    <span class="right-bottom-h1"></span>
+                </div>
+
+                <div class="catalogs-nav">
+                    <div class="dropdown">
+                        <input type="text" class="textBox" placeholder="Валюта" readonly>
+                        <div class="option">
+                            <div onclick="show('В рублях')" class="button-rubles course" data-filter="rubles">В рублях</div>
+                            <div onclick="show('В евро')" class="button-euros course" data-filter="euros">В евро</div>
+                            <div onclick="show('В долларах')" class="button-dollars course" data-filter="dollars">В долларах</div>
+                            <div onclick="show('Всё')" class="button-all course" data-filter="all">Всё</div>
+                        </div>
+                    </div>
+                
+                    <div class="searching">
+                        <form>
+                            <input type="text" class="input" placeholder="Искать здесь...">
+                            <button type="submit" class="submit-search"></button>
+                        </form>
+                    </div>          
+                </div>
+
+            <div class="catalog">
+               
+                <div class="card dollars" style="background: url(../img/catalog/img1.png) center no-repeat; background-size:cover;">
+                    <a href="#">
+                        <img src="../img/catalog/bookmark.png" alt="#" id="bookmark">
+                    </a>
+                    <div class="card-info">
+                        <h1 id="info-heading">Invision Elite ClubHouse</h1>
+                        <div class="info-content">
+                            <div class="info-text">
+                                <p id="price">Цена: 2.400.000$</p>
+                                <p>Участок : 900 кв.м</p>  
+                            </div>
+    
+                            <div class="info-text">
+                                <p>Кол-во комнат: 10</p>
+                                <p>Дом : 440 кв.м</p> 
+                            </div>
+                            
+                            <div class="button-wrapper">
+                                <span class="left-top"></span>
+                                    <div class="button-content">
+                                        <a href="#" class="btn">Перейти</a>
+                                    </div>
+                                <span class="right-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="card dollars" style="background: url(../img/catalog/img2.png) center no-repeat; background-size:cover;">
+                    <a href="#">
+                        <img src="../img/catalog/bookmark.png" alt="#" id="bookmark">
+                    </a>  
+                    <div class="card-info">
+                        <h1 id="info-heading">Anchor Elite House</h1>
+                        <div class="info-content">
+                            <div class="info-text">
+                                <p id="price">Цена: 12.400.000$</p>
+                                <p>Участок : 1350 кв.м</p>  
+                            </div>
+    
+                            <div class="info-text">
+                                <p>Кол-во комнат: 30</p>
+                                <p>Дом : 850 кв.м</p> 
+                            </div>
+                            
+                            <div class="button-wrapper">
+                                <span class="left-top"></span>
+                                    <div class="button-content">
+                                        <a href="../pages/product_card.html" class="btn">Перейти</a>
+                                    </div>
+                                <span class="right-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           
+                
+                <div class="card rubles" style="background: url(../img/catalog/img3.png) center no-repeat; background-size:cover;">
+                    <a href="#">
+                        <img src="../img/catalog/bookmark.png" alt="#" id="bookmark">
+                    </a>   
+                    <div class="card-info">
+                        <h1 id="info-heading">Modern Elite House</h1>
+                        <div class="info-content">
+                            <div class="info-text">
+                                <p id="price">Цена: 70.600.000₽</p>
+                                <p>Участок : 670 кв.м</p>  
+                            </div>
+    
+                            <div class="info-text">
+                                <p>Кол-во комнат: 5</p>
+                                <p>Дом : 300 кв.м</p> 
+                            </div>
+                            
+                            <div class="button-wrapper">
+                                <span class="left-top"></span>
+                                    <div class="button-content">
+                                        <a href="#" class="btn">Перейти</a>
+                                    </div>
+                                <span class="right-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card rubles" style="background: url(../img/catalog/img4.png) center no-repeat; background-size:cover;">
+                    <a href="#">
+                        <img src="../img/catalog/bookmark.png" alt="#" id="bookmark">
+                    </a>   
+                    <div class="card-info">
+                        <h1 id="info-heading">Future FullHouse</h1>
+                        <div class="info-content">
+                            <div class="info-text">
+                                <p id="price">Цена: 54.500.000₽</p>
+                                <p>Участок : 800 кв.м</p>  
+                            </div>
+    
+                            <div class="info-text">
+                                <p>Кол-во комнат: 8</p>
+                                <p>Дом : 448 кв.м</p> 
+                            </div>
+                            
+                            <div class="button-wrapper">
+                                <span class="left-top"></span>
+                                    <div class="button-content">
+                                        <a href="#" class="btn">Перейти</a>
+                                    </div>
+                                <span class="right-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card euros" style="background: url(../img/catalog/img5.png) center no-repeat; background-size:cover;">
+                    <a href="#">
+                        <img src="../img/catalog/bookmark.png" alt="#" id="bookmark">
+                    </a>    
+                    <div class="card-info">
+                        <h1 id="info-heading">Familly House</h1>
+                        <div class="info-content">
+                            <div class="info-text">
+                                <p id="price">Цена:  1.800.000€</p>
+                                <p>Участок : 930 кв.м</p>  
+                            </div>
+    
+                            <div class="info-text">
+                                <p>Кол-во комнат: 9</p>
+                                <p>Дом : 540 кв.м</p> 
+                            </div>
+                            
+                            <div class="button-wrapper">
+                                <span class="left-top"></span>
+                                    <div class="button-content">
+                                        <a href="#" class="btn">Перейти</a>
+                                    </div>
+                                <span class="right-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card euros" style="background: url(../img/catalog/img6.png) center no-repeat; background-size:cover;">
+                    <a href="#">
+                        <img src="../img/catalog/bookmark.png" alt="#" id="bookmark">
+                    </a>           
+                    <div class="card-info">
+                        <h1 id="info-heading">Holiday Cottage</h1>
+                        <div class="info-content">
+                            <div class="info-text">
+                                <p id="price">Цена: 4.800.000€</p>
+                                <p>Участок : 1000 кв.м</p>  
+                            </div>
+    
+                            <div class="info-text">
+                                <p>Кол-во комнат: 15</p>
+                                <p>Дом : 670 кв.м</p> 
+                            </div>
+                            
+                            <div class="button-wrapper">
+                                <span class="left-top"></span>
+                                    <div class="button-content">
+                                        <a href="#" class="btn">Перейти</a>
+                                    </div>
+                                <span class="right-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card dollars" style="background: url(../img/catalog/img1.png) center no-repeat; background-size:cover;">
+                    <a href="#">
+                        <img src="../img/catalog/bookmark.png" alt="#" id="bookmark">
+                    </a>
+                    <div class="card-info">
+                        <h1 id="info-heading">Invision Elite ClubHouse</h1>
+                        <div class="info-content">
+                            <div class="info-text">
+                                <p id="price">Цена: 2.400.000$</p>
+                                <p>Участок : 900 кв.м</p>  
+                            </div>
+    
+                            <div class="info-text">
+                                <p>Кол-во комнат: 10</p>
+                                <p>Дом : 440 кв.м</p> 
+                            </div>
+                            
+                            <div class="button-wrapper">
+                                <span class="left-top"></span>
+                                    <div class="button-content">
+                                        <a href="#" class="btn">Перейти</a>
+                                    </div>
+                                <span class="right-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="card dollars" style="background: url(../img/catalog/img2.png) center no-repeat; background-size:cover;">
+                    <a href="#">
+                        <img src="../img/catalog/bookmark.png" alt="#" id="bookmark">
+                    </a>  
+                    <div class="card-info">
+                        <h1 id="info-heading">Anchor Elite House</h1>
+                        <div class="info-content">
+                            <div class="info-text">
+                                <p id="price">Цена: 12.400.000$</p>
+                                <p>Участок : 1350 кв.м</p>  
+                            </div>
+    
+                            <div class="info-text">
+                                <p>Кол-во комнат: 30</p>
+                                <p>Дом : 850 кв.м</p> 
+                            </div>
+                            
+                            <div class="button-wrapper">
+                                <span class="left-top"></span>
+                                    <div class="button-content">
+                                        <a href="../pages/product_card.html" class="btn">Перейти</a>
+                                    </div>
+                                <span class="right-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           
+                
+                <div class="card rubles" style="background: url(../img/catalog/img3.png) center no-repeat; background-size:cover;">
+                    <a href="#">
+                        <img src="../img/catalog/bookmark.png" alt="#" id="bookmark">
+                    </a>   
+                    <div class="card-info">
+                        <h1 id="info-heading">Modern Elite House</h1>
+                        <div class="info-content">
+                            <div class="info-text">
+                                <p id="price">Цена: 70.600.000₽</p>
+                                <p>Участок : 670 кв.м</p>  
+                            </div>
+    
+                            <div class="info-text">
+                                <p>Кол-во комнат: 5</p>
+                                <p>Дом : 300 кв.м</p> 
+                            </div>
+                            
+                            <div class="button-wrapper">
+                                <span class="left-top"></span>
+                                    <div class="button-content">
+                                        <a href="#" class="btn">Перейти</a>
+                                    </div>
+                                <span class="right-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card rubles" style="background: url(../img/catalog/img4.png) center no-repeat; background-size:cover;">
+                    <a href="#">
+                        <img src="../img/catalog/bookmark.png" alt="#" id="bookmark">
+                    </a>   
+                    <div class="card-info">
+                        <h1 id="info-heading">Future FullHouse</h1>
+                        <div class="info-content">
+                            <div class="info-text">
+                                <p id="price">Цена: 54.500.000₽</p>
+                                <p>Участок : 800 кв.м</p>  
+                            </div>
+    
+                            <div class="info-text">
+                                <p>Кол-во комнат: 8</p>
+                                <p>Дом : 448 кв.м</p> 
+                            </div>
+                            
+                            <div class="button-wrapper">
+                                <span class="left-top"></span>
+                                    <div class="button-content">
+                                        <a href="#" class="btn">Перейти</a>
+                                    </div>
+                                <span class="right-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card euros" style="background: url(../img/catalog/img5.png) center no-repeat; background-size:cover;">
+                    <a href="#">
+                        <img src="../img/catalog/bookmark.png" alt="#" id="bookmark">
+                    </a>    
+                    <div class="card-info">
+                        <h1 id="info-heading">Familly House</h1>
+                        <div class="info-content">
+                            <div class="info-text">
+                                <p id="price">Цена:  1.800.000€</p>
+                                <p>Участок : 930 кв.м</p>  
+                            </div>
+    
+                            <div class="info-text">
+                                <p>Кол-во комнат: 9</p>
+                                <p>Дом : 540 кв.м</p> 
+                            </div>
+                            
+                            <div class="button-wrapper">
+                                <span class="left-top"></span>
+                                    <div class="button-content">
+                                        <a href="#" class="btn">Перейти</a>
+                                    </div>
+                                <span class="right-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card euros" style="background: url(../img/catalog/img6.png) center no-repeat; background-size:cover;">
+                    <a href="#">
+                        <img src="../img/catalog/bookmark.png" alt="#" id="bookmark">
+                    </a>           
+                    <div class="card-info">
+                        <h1 id="info-heading">Holiday Cottage</h1>
+                        <div class="info-content">
+                            <div class="info-text">
+                                <p id="price">Цена: 4.800.000€</p>
+                                <p>Участок : 1000 кв.м</p>  
+                            </div>
+    
+                            <div class="info-text">
+                                <p>Кол-во комнат: 15</p>
+                                <p>Дом : 670 кв.м</p> 
+                            </div>
+                            
+                            <div class="button-wrapper">
+                                <span class="left-top"></span>
+                                    <div class="button-content">
+                                        <a href="#" class="btn">Перейти</a>
+                                    </div>
+                                <span class="right-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card dollars" style="background: url(../img/catalog/img1.png) center no-repeat; background-size:cover;">
+                    <a href="#">
+                        <img src="../img/catalog/bookmark.png" alt="#" id="bookmark">
+                    </a>
+                    <div class="card-info">
+                        <h1 id="info-heading">Invision Elite ClubHouse</h1>
+                        <div class="info-content">
+                            <div class="info-text">
+                                <p id="price">Цена: 2.400.000$</p>
+                                <p>Участок : 900 кв.м</p>  
+                            </div>
+    
+                            <div class="info-text">
+                                <p>Кол-во комнат: 10</p>
+                                <p>Дом : 440 кв.м</p> 
+                            </div>
+                            
+                            <div class="button-wrapper">
+                                <span class="left-top"></span>
+                                    <div class="button-content">
+                                        <a href="#" class="btn">Перейти</a>
+                                    </div>
+                                <span class="right-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="card dollars" style="background: url(../img/catalog/img2.png) center no-repeat; background-size:cover;">
+                    <a href="#">
+                        <img src="../img/catalog/bookmark.png" alt="#" id="bookmark">
+                    </a>  
+                    <div class="card-info">
+                        <h1 id="info-heading">Anchor Elite House</h1>
+                        <div class="info-content">
+                            <div class="info-text">
+                                <p id="price">Цена: 12.400.000$</p>
+                                <p>Участок : 1350 кв.м</p>  
+                            </div>
+    
+                            <div class="info-text">
+                                <p>Кол-во комнат: 30</p>
+                                <p>Дом : 850 кв.м</p> 
+                            </div>
+                            
+                            <div class="button-wrapper">
+                                <span class="left-top"></span>
+                                    <div class="button-content">
+                                        <a href="../pages/product_card.html" class="btn">Перейти</a>
+                                    </div>
+                                <span class="right-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           
+                
+                <div class="card rubles" style="background: url(../img/catalog/img3.png) center no-repeat; background-size:cover;">
+                    <a href="#">
+                        <img src="../img/catalog/bookmark.png" alt="#" id="bookmark">
+                    </a>   
+                    <div class="card-info">
+                        <h1 id="info-heading">Modern Elite House</h1>
+                        <div class="info-content">
+                            <div class="info-text">
+                                <p id="price">Цена: 70.600.000₽</p>
+                                <p>Участок : 670 кв.м</p>  
+                            </div>
+    
+                            <div class="info-text">
+                                <p>Кол-во комнат: 5</p>
+                                <p>Дом : 300 кв.м</p> 
+                            </div>
+                            
+                            <div class="button-wrapper">
+                                <span class="left-top"></span>
+                                    <div class="button-content">
+                                        <a href="#" class="btn">Перейти</a>
+                                    </div>
+                                <span class="right-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card rubles" style="background: url(../img/catalog/img4.png) center no-repeat; background-size:cover;">
+                    <a href="#">
+                        <img src="../img/catalog/bookmark.png" alt="#" id="bookmark">
+                    </a>   
+                    <div class="card-info">
+                        <h1 id="info-heading">Future FullHouse</h1>
+                        <div class="info-content">
+                            <div class="info-text">
+                                <p id="price">Цена: 54.500.000₽</p>
+                                <p>Участок : 800 кв.м</p>  
+                            </div>
+    
+                            <div class="info-text">
+                                <p>Кол-во комнат: 8</p>
+                                <p>Дом : 448 кв.м</p> 
+                            </div>
+                            
+                            <div class="button-wrapper">
+                                <span class="left-top"></span>
+                                    <div class="button-content">
+                                        <a href="#" class="btn">Перейти</a>
+                                    </div>
+                                <span class="right-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card euros" style="background: url(../img/catalog/img5.png) center no-repeat; background-size:cover;">
+                    <a href="#">
+                        <img src="../img/catalog/bookmark.png" alt="#" id="bookmark">
+                    </a>    
+                    <div class="card-info">
+                        <h1 id="info-heading">Familly House</h1>
+                        <div class="info-content">
+                            <div class="info-text">
+                                <p id="price">Цена:  1.800.000€</p>
+                                <p>Участок : 930 кв.м</p>  
+                            </div>
+    
+                            <div class="info-text">
+                                <p>Кол-во комнат: 9</p>
+                                <p>Дом : 540 кв.м</p> 
+                            </div>
+                            
+                            <div class="button-wrapper">
+                                <span class="left-top"></span>
+                                    <div class="button-content">
+                                        <a href="#" class="btn">Перейти</a>
+                                    </div>
+                                <span class="right-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card euros" style="background: url(../img/catalog/img6.png) center no-repeat; background-size:cover;">
+                    <a href="#">
+                        <img src="../img/catalog/bookmark.png" alt="#" id="bookmark">
+                    </a>           
+                    <div class="card-info">
+                        <h1 id="info-heading">Holiday Cottage</h1>
+                        <div class="info-content">
+                            <div class="info-text">
+                                <p id="price">Цена: 4.800.000€</p>
+                                <p>Участок : 1000 кв.м</p>  
+                            </div>
+    
+                            <div class="info-text">
+                                <p>Кол-во комнат: 15</p>
+                                <p>Дом : 670 кв.м</p> 
+                            </div>
+                            
+                            <div class="button-wrapper">
+                                <span class="left-top"></span>
+                                    <div class="button-content">
+                                        <a href="#" class="btn">Перейти</a>
+                                    </div>
+                                <span class="right-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card dollars" style="background: url(../img/catalog/img1.png) center no-repeat; background-size:cover;">
+                    <a href="#">
+                        <img src="../img/catalog/bookmark.png" alt="#" id="bookmark">
+                    </a>
+                    <div class="card-info">
+                        <h1 id="info-heading">Invision Elite ClubHouse</h1>
+                        <div class="info-content">
+                            <div class="info-text">
+                                <p id="price">Цена: 2.400.000$</p>
+                                <p>Участок : 900 кв.м</p>  
+                            </div>
+    
+                            <div class="info-text">
+                                <p>Кол-во комнат: 10</p>
+                                <p>Дом : 440 кв.м</p> 
+                            </div>
+                            
+                            <div class="button-wrapper">
+                                <span class="left-top"></span>
+                                    <div class="button-content">
+                                        <a href="#" class="btn">Перейти</a>
+                                    </div>
+                                <span class="right-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="card dollars" style="background: url(../img/catalog/img2.png) center no-repeat; background-size:cover;">
+                    <a href="#">
+                        <img src="../img/catalog/bookmark.png" alt="#" id="bookmark">
+                    </a>  
+                    <div class="card-info">
+                        <h1 id="info-heading">Anchor Elite House</h1>
+                        <div class="info-content">
+                            <div class="info-text">
+                                <p id="price">Цена: 12.400.000$</p>
+                                <p>Участок : 1350 кв.м</p>  
+                            </div>
+    
+                            <div class="info-text">
+                                <p>Кол-во комнат: 30</p>
+                                <p>Дом : 850 кв.м</p> 
+                            </div>
+                            
+                            <div class="button-wrapper">
+                                <span class="left-top"></span>
+                                    <div class="button-content">
+                                        <a href="../pages/product_card.html" class="btn">Перейти</a>
+                                    </div>
+                                <span class="right-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           
+                
+                <div class="card rubles" style="background: url(../img/catalog/img3.png) center no-repeat; background-size:cover;">
+                    <a href="#">
+                        <img src="../img/catalog/bookmark.png" alt="#" id="bookmark">
+                    </a>   
+                    <div class="card-info">
+                        <h1 id="info-heading">Modern Elite House</h1>
+                        <div class="info-content">
+                            <div class="info-text">
+                                <p id="price">Цена: 70.600.000₽</p>
+                                <p>Участок : 670 кв.м</p>  
+                            </div>
+    
+                            <div class="info-text">
+                                <p>Кол-во комнат: 5</p>
+                                <p>Дом : 300 кв.м</p> 
+                            </div>
+                            
+                            <div class="button-wrapper">
+                                <span class="left-top"></span>
+                                    <div class="button-content">
+                                        <a href="#" class="btn">Перейти</a>
+                                    </div>
+                                <span class="right-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card rubles" style="background: url(../img/catalog/img4.png) center no-repeat; background-size:cover;">
+                    <a href="#">
+                        <img src="../img/catalog/bookmark.png" alt="#" id="bookmark">
+                    </a>   
+                    <div class="card-info">
+                        <h1 id="info-heading">Future FullHouse</h1>
+                        <div class="info-content">
+                            <div class="info-text">
+                                <p id="price">Цена: 54.500.000₽</p>
+                                <p>Участок : 800 кв.м</p>  
+                            </div>
+    
+                            <div class="info-text">
+                                <p>Кол-во комнат: 8</p>
+                                <p>Дом : 448 кв.м</p> 
+                            </div>
+                            
+                            <div class="button-wrapper">
+                                <span class="left-top"></span>
+                                    <div class="button-content">
+                                        <a href="#" class="btn">Перейти</a>
+                                    </div>
+                                <span class="right-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card euros" style="background: url(../img/catalog/img5.png) center no-repeat; background-size:cover;">
+                    <a href="#">
+                        <img src="../img/catalog/bookmark.png" alt="#" id="bookmark">
+                    </a>    
+                    <div class="card-info">
+                        <h1 id="info-heading">Familly House</h1>
+                        <div class="info-content">
+                            <div class="info-text">
+                                <p id="price">Цена:  1.800.000€</p>
+                                <p>Участок : 930 кв.м</p>  
+                            </div>
+    
+                            <div class="info-text">
+                                <p>Кол-во комнат: 9</p>
+                                <p>Дом : 540 кв.м</p> 
+                            </div>
+                            
+                            <div class="button-wrapper">
+                                <span class="left-top"></span>
+                                    <div class="button-content">
+                                        <a href="#" class="btn">Перейти</a>
+                                    </div>
+                                <span class="right-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card euros" style="background: url(../img/catalog/img6.png) center no-repeat; background-size:cover;">
+                    <a href="#">
+                        <img src="../img/catalog/bookmark.png" alt="#" id="bookmark">
+                    </a>           
+                    <div class="card-info">
+                        <h1 id="info-heading">Holiday Cottage</h1>
+                        <div class="info-content">
+                            <div class="info-text">
+                                <p id="price">Цена: 4.800.000€</p>
+                                <p>Участок : 1000 кв.м</p>  
+                            </div>
+    
+                            <div class="info-text">
+                                <p>Кол-во комнат: 15</p>
+                                <p>Дом : 670 кв.м</p> 
+                            </div>
+                            
+                            <div class="button-wrapper">
+                                <span class="left-top"></span>
+                                    <div class="button-content">
+                                        <a href="#" class="btn">Перейти</a>
+                                    </div>
+                                <span class="right-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card dollars" style="background: url(../img/catalog/img1.png) center no-repeat; background-size:cover;">
+                    <a href="#">
+                        <img src="../img/catalog/bookmark.png" alt="#" id="bookmark">
+                    </a>
+                    <div class="card-info">
+                        <h1 id="info-heading">Invision Elite ClubHouse</h1>
+                        <div class="info-content">
+                            <div class="info-text">
+                                <p id="price">Цена: 2.400.000$</p>
+                                <p>Участок : 900 кв.м</p>  
+                            </div>
+    
+                            <div class="info-text">
+                                <p>Кол-во комнат: 10</p>
+                                <p>Дом : 440 кв.м</p> 
+                            </div>
+                            
+                            <div class="button-wrapper">
+                                <span class="left-top"></span>
+                                    <div class="button-content">
+                                        <a href="#" class="btn">Перейти</a>
+                                    </div>
+                                <span class="right-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="card dollars" style="background: url(../img/catalog/img2.png) center no-repeat; background-size:cover;">
+                    <a href="#">
+                        <img src="../img/catalog/bookmark.png" alt="#" id="bookmark">
+                    </a>  
+                    <div class="card-info">
+                        <h1 id="info-heading">Anchor Elite House</h1>
+                        <div class="info-content">
+                            <div class="info-text">
+                                <p id="price">Цена: 12.400.000$</p>
+                                <p>Участок : 1350 кв.м</p>  
+                            </div>
+    
+                            <div class="info-text">
+                                <p>Кол-во комнат: 30</p>
+                                <p>Дом : 850 кв.м</p> 
+                            </div>
+                            
+                            <div class="button-wrapper">
+                                <span class="left-top"></span>
+                                    <div class="button-content">
+                                        <a href="../pages/product_card.html" class="btn">Перейти</a>
+                                    </div>
+                                <span class="right-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           
+                
+                <div class="card rubles" style="background: url(../img/catalog/img3.png) center no-repeat; background-size:cover;">
+                    <a href="#">
+                        <img src="../img/catalog/bookmark.png" alt="#" id="bookmark">
+                    </a>   
+                    <div class="card-info">
+                        <h1 id="info-heading">Modern Elite House</h1>
+                        <div class="info-content">
+                            <div class="info-text">
+                                <p id="price">Цена: 70.600.000₽</p>
+                                <p>Участок : 670 кв.м</p>  
+                            </div>
+    
+                            <div class="info-text">
+                                <p>Кол-во комнат: 5</p>
+                                <p>Дом : 300 кв.м</p> 
+                            </div>
+                            
+                            <div class="button-wrapper">
+                                <span class="left-top"></span>
+                                    <div class="button-content">
+                                        <a href="#" class="btn">Перейти</a>
+                                    </div>
+                                <span class="right-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card rubles" style="background: url(../img/catalog/img4.png) center no-repeat; background-size:cover;">
+                    <a href="#">
+                        <img src="../img/catalog/bookmark.png" alt="#" id="bookmark">
+                    </a>   
+                    <div class="card-info">
+                        <h1 id="info-heading">Future FullHouse</h1>
+                        <div class="info-content">
+                            <div class="info-text">
+                                <p id="price">Цена: 54.500.000₽</p>
+                                <p>Участок : 800 кв.м</p>  
+                            </div>
+    
+                            <div class="info-text">
+                                <p>Кол-во комнат: 8</p>
+                                <p>Дом : 448 кв.м</p> 
+                            </div>
+                            
+                            <div class="button-wrapper">
+                                <span class="left-top"></span>
+                                    <div class="button-content">
+                                        <a href="#" class="btn">Перейти</a>
+                                    </div>
+                                <span class="right-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card euros" style="background: url(../img/catalog/img5.png) center no-repeat; background-size:cover;">
+                    <a href="#">
+                        <img src="../img/catalog/bookmark.png" alt="#" id="bookmark">
+                    </a>    
+                    <div class="card-info">
+                        <h1 id="info-heading">Familly House</h1>
+                        <div class="info-content">
+                            <div class="info-text">
+                                <p id="price">Цена:  1.800.000€</p>
+                                <p>Участок : 930 кв.м</p>  
+                            </div>
+    
+                            <div class="info-text">
+                                <p>Кол-во комнат: 9</p>
+                                <p>Дом : 540 кв.м</p> 
+                            </div>
+                            
+                            <div class="button-wrapper">
+                                <span class="left-top"></span>
+                                    <div class="button-content">
+                                        <a href="#" class="btn">Перейти</a>
+                                    </div>
+                                <span class="right-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card euros" style="background: url(../img/catalog/img6.png) center no-repeat; background-size:cover;">
+                    <a href="#">
+                        <img src="../img/catalog/bookmark.png" alt="#" id="bookmark">
+                    </a>           
+                    <div class="card-info">
+                        <h1 id="info-heading">Holiday Cottage</h1>
+                        <div class="info-content">
+                            <div class="info-text">
+                                <p id="price">Цена: 4.800.000€</p>
+                                <p>Участок : 1000 кв.м</p>  
+                            </div>
+    
+                            <div class="info-text">
+                                <p>Кол-во комнат: 15</p>
+                                <p>Дом : 670 кв.м</p> 
+                            </div>
+                            
+                            <div class="button-wrapper">
+                                <span class="left-top"></span>
+                                    <div class="button-content">
+                                        <a href="#" class="btn">Перейти</a>
+                                    </div>
+                                <span class="right-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+            
+        </main>
+
+        <div class="footer">
+            <div class="container">
+                <div class="footer-upper-content">
+                    <div class="footer-content-left">
+                        <div class="footer-content-left-logo">
+                            <a href="#"> 
+                                <img src="../img/WhiteLogo.png" alt="#">
+                            </a>
+                           
+                        </div>
+    
+                        <div class="footer-content-left-text">
+                            <p>Все права защищены
+                                Копирование и воспроизведение материалов этого сайта возможно только с письменного согласия администрации сайта.
+                            </p>
+
+                            <p>
+                                Представленная на сайте информация, в т.ч. стоимость объектов, носит информационный характер и не является публичной офертой.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-content-center">
+                            <div class="personal-data-policy">
+                                <p>Политика обработки персональных данных</p>
+                            </div>
+
+                            <div class="social-networks">
+                                <a href="#">
+                                      <img src="../img/footer/youtube.png" alt="#">
+                                </a>
+
+                                <a href="#">
+                                    <img src="../img/footer/whatsapp.png" alt="#">
+                                </a>
+
+                                <a href="#">
+                                    <img src="../img/footer/discord.png" alt="#">
+                                </a>
+
+                                <a href="#">
+                                    <img src="../img/footer/vk.png" alt="#">
+                                </a>
+                            </div>
+                        
+                            
+                    </div>
+    
+                    <div class="footer-content-right">
+                        <div class="contact">
+                                <a href="tel:8 (999) 255 49-87">8 (999) 255 49-87</a>
+                                <a href="tel:8 (999) 255 49-87">Бесплатно по России</a>
+                            <div class="button-wrapper">
+                                <span class="left-top"></span>
+                                    <div class="button-content">
+                                        <a href="tel:8 (999) 255 49-87" class="btn">Связаться</a>
+                                    </div>
+                                <span class="right-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="copyright">
+                    <a href="#">©Knight of Truth 2022-2023 Все права защищены</a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+<script src="../js/catalog.js"></script>
+</body>
+</html>

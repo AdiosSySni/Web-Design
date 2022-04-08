@@ -1,0 +1,141 @@
+.header {
+    background:none;
+    position: absolute;
+    margin-top:33px;
+}
+
+.intro {
+    height:100vh;
+    background:url("../img/dashboard.png") center no-repeat fixed; 
+    background-size:cover;
+    padding:250px 0 0 235px;
+}
+
+.intro-content {
+    color:white;
+    width:475px;
+    height:224px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* .intro-content h1{
+    width:450px;
+    height:50px;
+}
+
+.intro-content p {
+    width:460px;
+    height:78px;
+} */
+
+.intro-content .btn {
+    border: 1px solid white;
+    color:white;
+}
+
+.intro-content .left-top {
+    border-left:1px solid white;
+    border-top:1px solid white;
+}
+
+.intro-content .right-bottom {
+    top:33px;
+    border-right:1px solid white;
+    border-bottom:1px solid white;
+}
+
+
+.special-offer {
+    height:719px;
+}
+
+.special-offer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.special-offer-img {
+    height:100%;
+    width:800px;
+}
+
+.special-offer-info {
+    width:724px;
+    padding: 128px 70px 220px 106px;
+    background: url("../img/wreath.png") center no-repeat;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.compilation {
+    height:1064px;
+    margin-top:40px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.compilation h1 {
+    margin-top:15px;
+}
+
+.offers {
+    height:878px;
+    margin-top:72px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.builds {
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.specialists {
+    margin-top:85px;
+    height:406px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.companies {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-top:46px;
+    height:232px;
+    width:100%;
+}
+
+.about-us {
+    margin-top:118px;
+    height:521px;
+    text-align: center;
+}
+
+/* .about-us h1 {
+    text-align: center;
+} */
+
+.about-us .container {
+    height:100%;
+    width:872px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-us .container p {
+    height:202px;
+}
